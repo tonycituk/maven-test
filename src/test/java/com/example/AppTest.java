@@ -17,4 +17,12 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    @Test
+    public void testFraccionSimplificada()
+    {
+        Fraccion fraccA = new Fraccion(4,2);
+        Fraccion fraccB = new Fraccion(2);
+        assertTrue( (fraccA.getDen() == fraccB.getDen() && fraccA.getNum() == fraccB.getNum()) );
+    }
 }
