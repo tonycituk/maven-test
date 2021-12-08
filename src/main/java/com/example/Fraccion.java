@@ -16,7 +16,6 @@ public class Fraccion {
             den = 1;
         }
         this.den = den;
-        simplificar();
     }
 
     public Fraccion(int num) {
